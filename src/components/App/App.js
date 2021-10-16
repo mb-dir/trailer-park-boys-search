@@ -5,13 +5,13 @@ function App() {
   return(
     <React.Fragment>
       <Header/>
-      <Season seasonData={"1st Season"}/>
-      <Season seasonData={"2nd Season"}/>
-      <Season seasonData={"3rd Season"}/>
-      <Season seasonData={"4th Season"}/>
-      <Season seasonData={"5th Season"}/>
-      <Season seasonData={"6th Season"}/>
-      <Season seasonData={"7th Season"}/>
+      <Season seasonData={{title: "1st Season", id:0}}/>
+      <Season seasonData={{title: "2nd Season", id:1}}/>
+      <Season seasonData={{title: "3rd Season", id:2}}/>
+      <Season seasonData={{title: "4th Season", id:3}}/>
+      <Season seasonData={{title: "5th Season", id:4}}/>
+      <Season seasonData={{title: "6th Season", id:5}}/>
+      <Season seasonData={{title: "7th Season", id:6}}/>
     </React.Fragment>
   );
 }

@@ -19,7 +19,7 @@ class Season extends React.Component{
     }
     render(){
         return(
-            <h2>{this.props.seasonData}</h2>
+            <h2>{this.props.seasonData.title}</h2>
         );
     }
 }
