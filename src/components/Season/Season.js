@@ -1,9 +1,10 @@
 import React from "react";
-
-const Season = (props)=>{
-    return(
-        <h2>{props.seasonData}</h2>
-    );
+class Season extends React.Component{
+    render(){
+        return(
+            <h2>{this.props.seasonData}</h2>
+        );
+    }
 }
 
 export default Season;
