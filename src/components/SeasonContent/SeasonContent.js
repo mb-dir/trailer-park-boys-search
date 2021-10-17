@@ -9,7 +9,9 @@ const SeasonContent = (props)=>{
         );
     });
     return(
-        <div>{seasonContent}</div>
+        <React.Fragment>
+            {seasonContent}
+        </React.Fragment>
     );
 }
 export default SeasonContent
