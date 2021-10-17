@@ -5,16 +5,33 @@ class Season extends React.Component{
         seasons: [
             {
                 id:0,
-                titles:["title 1", "title 2"],
+                titles:["title 1 season 1", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 1"],
             },
             {
                 id:1,
-                titles:["title 11", "title 22"],
+                titles:["title 1 season 2", "title 2 season 2", "title 3 season 2", "title 4 season 2", "title 5 season 2"],
             },
             {
                 id:2,
-                titles:["title 111", "title 222"],
+                titles:["title 1 season 3", "title 2 season 3", "title 3 season 3", "title 4 season 3", "title 5 season 3"],
             },
+            {
+                id:3,
+                titles:["title 1 season 4", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 4"],
+            },
+            {
+                id:4,
+                titles:["title 1 season 5", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 5"],
+            },
+            {
+                id:5,
+                titles:["title 1 season 6", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 6"],
+            },
+            {
+                id:6,
+                titles:["title 1 season 7", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 7"],
+            },
+
         ],
     }
     render(){
