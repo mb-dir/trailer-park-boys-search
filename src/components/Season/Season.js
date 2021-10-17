@@ -1,3 +1,5 @@
+import SeasonContent from "../SeasonContent/SeasonContent";
+
 import React from "react";
 class Season extends React.Component{
     // Example state structure - single season will be passed to another component which will create the appropriate content
@@ -36,7 +38,9 @@ class Season extends React.Component{
     }
     render(){
         return(
-            <h2>{this.props.seasonData.title}</h2>
+            <main>
+                <SeasonContent data={this.state.seasons}/>
+            </main>
         );
     }
 }
