@@ -1,11 +1,12 @@
 import React from "react";
 
 const SeasonContent = (props)=>{
-    const seasonContent = props.data.map((el)=>{
+    console.log(props.data)
+    const seasonContent = props.data.titles.map((el)=>{
         return(
-            <section>
-                <h2>{el.titles}</h2>
-            </section>
+            <div>
+                <h2>{el}</h2>
+            </div>
         );
     });
     return(
