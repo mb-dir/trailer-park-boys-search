@@ -1,4 +1,5 @@
 import SeasonContent from "../SeasonContent/SeasonContent";
+import "./season.css";
 
 import React from "react";
 class Season extends React.Component{
