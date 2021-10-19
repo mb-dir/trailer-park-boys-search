@@ -1,4 +1,5 @@
 import React from "react";
+import "./seasonContent.css";
 
 const SeasonContent = (props)=>{
     const seasonContent = props.data.titles.map((el)=>{
