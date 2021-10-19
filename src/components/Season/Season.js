@@ -41,24 +41,31 @@ class Season extends React.Component{
         return(
             <main className="seasons">
                 <section className="seasons__season season">
+                    <h2>Season 1</h2>
                     <SeasonContent data={this.state.seasons[0]}/>
                 </section>
                 <section className="seasons__season season">
+                    <h2>Season 2</h2>
                     <SeasonContent data={this.state.seasons[1]}/>
                 </section>
                 <section className="seasons__season season">
+                    <h2>Season 3</h2>
                     <SeasonContent data={this.state.seasons[2]}/>
                 </section>
                 <section className="seasons__season season">
+                    <h2>Season 4</h2>
                     <SeasonContent data={this.state.seasons[3]}/>
                 </section>
                 <section className="seasons__season season">
+                    <h2>Season 5</h2>
                     <SeasonContent data={this.state.seasons[4]}/>
                 </section>
                 <section className="seasons__season season">
+                    <h2>Season 6</h2>
                     <SeasonContent data={this.state.seasons[5]}/>
                 </section>
                 <section className="seasons__season season">
+                    <h2>Season 7</h2>
                     <SeasonContent data={this.state.seasons[6]}/>
                 </section>
             </main>
