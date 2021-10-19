@@ -32,7 +32,7 @@ class Season extends React.Component{
             },
             {
                 id:6,
-                titles:["title 1 season 7", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 7"],
+                titles:["title 1 season 7", "title 2 season 1", "title 3 season 1", "title 4 season 1", "title 5 season 7",],
             },
 
         ],
@@ -40,33 +40,47 @@ class Season extends React.Component{
     render(){
         return(
             <main className="seasons">
-                <section className="seasons__season season">
-                    <h2>Season 1</h2>
-                    <SeasonContent data={this.state.seasons[0]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 1</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[0]}/>
+                    </div>
                 </section>
-                <section className="seasons__season season">
-                    <h2>Season 2</h2>
-                    <SeasonContent data={this.state.seasons[1]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 2</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[1]}/>
+                    </div>
                 </section>
-                <section className="seasons__season season">
-                    <h2>Season 3</h2>
-                    <SeasonContent data={this.state.seasons[2]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 3</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[2]}/>
+                    </div>
                 </section>
-                <section className="seasons__season season">
-                    <h2>Season 4</h2>
-                    <SeasonContent data={this.state.seasons[3]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 4</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[3]}/>
+                    </div>
                 </section>
-                <section className="seasons__season season">
-                    <h2>Season 5</h2>
-                    <SeasonContent data={this.state.seasons[4]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 5</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[4]}/>
+                    </div>
                 </section>
-                <section className="seasons__season season">
-                    <h2>Season 6</h2>
-                    <SeasonContent data={this.state.seasons[5]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 6</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[5]}/>
+                    </div>
                 </section>
-                <section className="seasons__season season">
-                    <h2>Season 7</h2>
-                    <SeasonContent data={this.state.seasons[6]}/>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 7</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[6]}/>
+                    </div>
                 </section>
             </main>
         );
