@@ -37,12 +37,17 @@ class Season extends React.Component{
 
         ],
     }
+
+    inputHandler(e){
+        console.log(e.target.value);
+    }
+
     render(){
         return(
             <main className="seasons">
                 <form>
                     <label htmlFor="searcher">Search season</label>
-                    <input type="text" id="searcher"/>
+                    <input type="text" id="searcher" onChange={this.inputHandler.bind(this)}/>
                 </form>
                 <section className="seasons__season">
                     <h2 className="seasons__titleSeason">Season 1</h2>
