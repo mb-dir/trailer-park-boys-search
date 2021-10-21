@@ -18,8 +18,10 @@ class Season extends React.Component{
     inputHandler(e){
         for(const el of this.state.seasons){
             for(const el2 of el.titles){
-                if(el2.includes(e.target.value)){
-                    console.log(el2);
+                if(el2.title.includes(e.target.value)){
+                    // the episode id is a two-digit number, so we can calculate the index of the element which matches woth user entry in such a way: subtract 1 from the remainder when dividing by 10
+                    const elIndex = (el2.episodeID%10)-1;
+                    console.log(elIndex);
                 }
             }
         }
