@@ -39,7 +39,13 @@ class Season extends React.Component{
     }
 
     inputHandler(e){
-        console.log(e.target.value);
+        for(const el of this.state.seasons){
+            for(const el2 of el.titles){
+                if(el2.includes(e.target.value)){
+                    console.log(el2);
+                }
+            }
+        }
     }
 
     render(){
