@@ -1,7 +1,12 @@
+import React from "react";
 import Header from "../Header/Header";
+import Season from "../Season/Season";
 function App() {
   return(
-    <Header/>
+    <React.Fragment>
+      <Header/>
+      <Season/>
+    </React.Fragment>
   );
 }
 

@@ -1,0 +1,12 @@
+.seasons{
+    text-align: center;
+    margin-top: 40px;
+}
+.seasons__content{
+    margin: 15px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
