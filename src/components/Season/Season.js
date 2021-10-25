@@ -31,7 +31,7 @@ class Season extends React.Component{
                 }else{
                     newElements[whichSeason].titles[elIndex].hidden = true;
                 }
-                console.log(newElements[whichSeason].titles);
+                this.setState({seasons: newElements});
             }
         }
     }
