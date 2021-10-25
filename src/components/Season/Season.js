@@ -11,6 +11,30 @@ class Season extends React.Component{
                 // episodeID 11 means 1st season and 1st episode, 12 means 1st season and 2nd episode etc 
                 titles:[{title: "title 1 season 1", episodeID:11, hidden: false}, {title: "title 2 season 1", episodeID:12, hidden: false}, {title: "title 3 season 1", episodeID:13, hidden: false}, {title: "title 4 season 1", episodeID:14, hidden: false}, {title: "title 5 season 1", episodeID:15, hidden: false}],
             },
+            {
+                id:1,
+                titles:[{title: "title 1 season 1", episodeID:21, hidden: false}, {title: "title 2 season 1", episodeID:22, hidden: false}, {title: "title 3 season 1", episodeID:23, hidden: false}, {title: "title 4 season 1", episodeID:24, hidden: false}, {title: "title 5 season 1", episodeID:25, hidden: false}],
+            },
+            {
+                id:2,
+                titles:[{title: "title 1 season 1", episodeID:31, hidden: false}, {title: "title 2 season 1", episodeID:32, hidden: false}, {title: "title 3 season 1", episodeID:33, hidden: false}, {title: "title 4 season 1", episodeID:34, hidden: false}, {title: "title 5 season 1", episodeID:35, hidden: false}],
+            },
+            {
+                id:3, 
+                titles:[{title: "title 1 season 1", episodeID:41, hidden: false}, {title: "title 2 season 1", episodeID:42, hidden: false}, {title: "title 3 season 1", episodeID:43, hidden: false}, {title: "title 4 season 1", episodeID:44, hidden: false}, {title: "title 5 season 1", episodeID:45, hidden: false}],
+            },
+            {
+                id:4,
+                titles:[{title: "title 1 season 1", episodeID:51, hidden: false}, {title: "title 2 season 1", episodeID:52, hidden: false}, {title: "title 3 season 1", episodeID:53, hidden: false}, {title: "title 4 season 1", episodeID:54, hidden: false}, {title: "title 5 season 1", episodeID:55, hidden: false}],
+            },
+            {
+                id:5,
+                titles:[{title: "title 1 season 1", episodeID:61, hidden: false}, {title: "title 2 season 1", episodeID:62, hidden: false}, {title: "title 3 season 6", episodeID:63, hidden: false}, {title: "title 4 season 1", episodeID:64, hidden: false}, {title: "title 5 season 6", episodeID:65, hidden: false}],
+            },
+            {
+                id:6,
+                titles:[{title: "title 1 season 1", episodeID:71, hidden: false}, {title: "title 2 season 1", episodeID:72, hidden: false}, {title: "title 3 season 1", episodeID:73, hidden: false}, {title: "title 4 season 1", episodeID:74, hidden: false}, {title: "title 5 season 7", episodeID:75, hidden: false}],
+            },
 
         ],
     }
@@ -47,6 +71,42 @@ class Season extends React.Component{
                     <h2 className="seasons__titleSeason">Season 1</h2>
                     <div className="seasons__content">
                         <SeasonContent data={this.state.seasons[0]}/>
+                    </div>
+                </section>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 2</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[1]}/>
+                    </div>
+                </section>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 3</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[2]}/>
+                    </div>
+                </section>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 4</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[3]}/>
+                    </div>
+                </section>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 5</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[4]}/>
+                    </div>
+                </section>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 6</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[5]}/>
+                    </div>
+                </section>
+                <section className="seasons__season">
+                    <h2 className="seasons__titleSeason">Season 7</h2>
+                    <div className="seasons__content">
+                        <SeasonContent data={this.state.seasons[6]}/>
                     </div>
                 </section>
             </main>
