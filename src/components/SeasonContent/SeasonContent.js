@@ -6,9 +6,9 @@ const SeasonContent = (props)=>{
         let className;
         el.hidden ? className = "season__episode season__episode--hidden episode" : className = "season__episode episode";
         return(
-            <div className={className} key={el.episodeID}>
-                <a className="episode__title" target="_blank" href={el.linkToEpisode}>{el.title}</a>
-            </div>
+            <a className="episode__title" target="_blank" href={el.linkToEpisode}>
+                <div className={className} key={el.episodeID}>{el.title}</div>
+            </a>
         );
     });
     return(
