@@ -42,11 +42,9 @@ class Season extends React.Component{
     inputHandler(e){
         for(const el of this.state.seasons){
             for(const el2 of el.titles){
-                // the episode id is a two-digit number, so we can calculate the index of the element which matches woth user entry in such a way: subtract 1 from the remainder when dividing by 10
-                const elIndex = (el2.episodeID%10)-1;
+                const elIndex = parseInt(el2.episodeID.split("-")[1])-1;
 
-                // In order to update the hidden value in props we have to have index of the match element(above we have it) and the season number which we can calculate in such a way: if eposideID = 11(it is 1st season) Math.floor(el2.episodeID/10) returnes 1, and the arrays are numberd from 0 so we have to subtract 1, when the eposideID = 21 Math.floor(el2.episodeID/10) returnes 2 and 2-1 = 1
-                const whichSeason = Math.floor(el2.episodeID/10)-1;
+                const whichSeason = parseInt(el2.episodeID.split("-")[0])-1;
 
                 // New array - in this array I will update the appropriate value and I will set new state with this new array
                 const newElements = [...this.state.seasons];
