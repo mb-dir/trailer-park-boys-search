@@ -50,7 +50,7 @@ class Season extends React.Component{
 
                 // New array - in this array I will update the appropriate value and I will set new state with this new array
                 const newElements = [...this.state.seasons];
-                if(el2.title.includes(e.target.value)){
+                if(el2.title.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase())){
                     newElements[whichSeason].titles[elIndex].hidden = false;
                 }else{
                     newElements[whichSeason].titles[elIndex].hidden = true;
