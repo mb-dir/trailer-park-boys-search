@@ -40,7 +40,9 @@ class Season extends React.Component{
     }
 
     inputHandler(e){
+        //First loop throught all season
         for(const el of this.state.seasons){
+            //Nested loop throught all episode in a single season
             for(const el2 of el.titles){
                 const elIndex = parseInt(el2.episodeID.split("-")[1])-1;
 
