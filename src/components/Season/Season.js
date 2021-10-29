@@ -63,9 +63,9 @@ class Season extends React.Component{
     render(){
         return(
             <main className="seasons">
-                <form>
-                    <label htmlFor="searcher">Search season</label>
-                    <input type="text" id="searcher" onChange={this.inputHandler.bind(this)}/>
+                <form className="seasons__searchForm">
+                    <label className="seasons__searcherLabel" htmlFor="searcher">Search season</label>
+                    <input className="seasons__searcher"type="text" id="searcher" onChange={this.inputHandler.bind(this)}/>
                 </form>
                 <section className="seasons__season">
                     <h2 className="seasons__titleSeason">Season 1</h2>
