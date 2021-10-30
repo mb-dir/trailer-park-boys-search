@@ -10,3 +10,6 @@
     align-items: center;
     justify-content: space-between;
 }
+.seasons__searcherLabel{
+    display: block;
+}
