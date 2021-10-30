@@ -4,10 +4,10 @@ import "./seasonContent.css";
 const SeasonContent = (props)=>{
     const seasonContent = props.data.titles.map((el)=>{
         let className;
-        el.hidden ? className = "season__episode season__episode--hidden episode" : className = "season__episode episode";
+        el.hidden ? className = "episode__titleContainer episode__titleContainer--hidden" : className = "episode__titleContainer";
         return(
-            <a key={el.episodeID} className="episode__titleContainer" target="_blank" rel="noreferrer" href={el.linkToEpisode}>
-                <div className={className}>
+            <a key={el.episodeID} className={className} target="_blank" rel="noreferrer" href={el.linkToEpisode}>
+                <div className="season__episode">
                     <h3 className="episode__title">{el.title}</h3>
                     <img className="episode__thumbnail" src={`${el.thumbnail}`} alt="episode thumbnail"/>
                 </div>

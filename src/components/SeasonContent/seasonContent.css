@@ -1,17 +1,18 @@
-.season__episode{
+.episode__titleContainer{
     border: 3px solid beige;
     width: 250px;
     height: 160px;
     margin: 20px;
     position: relative;
 }
-.season__episode--hidden{
+.episode__titleContainer--hidden{
     display: none;
 }
-.episode__titleContainer{
+.season__episode{
     color: #000000;
     text-decoration: none;
     text-align: center;
+    height: 100%;
 }
 .episode__title{
     position: absolute;
