@@ -6,7 +6,7 @@
     position: relative;
 }
 .season__episode--hidden{
-    opacity: 0;
+    display: none;
 }
 .episode__titleContainer{
     color: #000000;
