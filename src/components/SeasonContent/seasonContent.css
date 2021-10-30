@@ -3,11 +3,32 @@
     width: 250px;
     height: 160px;
     margin: 20px;
+    position: relative;
 }
 .season__episode--hidden{
     opacity: 0;
 }
-.episode__title{
-    color: beige;
+.episode__titleContainer{
+    color: #000000;
     text-decoration: none;
+    text-align: center;
+}
+.episode__title{
+    position: absolute;
+    width: 100%;
+    text-shadow: -1px -1px 0px beige;
+    z-index: 22222;
+}
+.episode__title::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+    background-color: beige;
+    position: absolute;
+}
+.episode__thumbnail{
+    width: 100%;
+    height: 100%;
 }
