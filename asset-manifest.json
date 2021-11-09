@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trailer-park-boys-search/static/css/main.50ce70e4.chunk.css",
+    "main.js": "/trailer-park-boys-search/static/js/main.15b20dff.chunk.js",
+    "main.js.map": "/trailer-park-boys-search/static/js/main.15b20dff.chunk.js.map",
+    "runtime-main.js": "/trailer-park-boys-search/static/js/runtime-main.a2740b4a.js",
+    "runtime-main.js.map": "/trailer-park-boys-search/static/js/runtime-main.a2740b4a.js.map",
+    "static/js/2.d6f0f4e9.chunk.js": "/trailer-park-boys-search/static/js/2.d6f0f4e9.chunk.js",
+    "static/js/2.d6f0f4e9.chunk.js.map": "/trailer-park-boys-search/static/js/2.d6f0f4e9.chunk.js.map",
+    "static/js/3.a9dcde91.chunk.js": "/trailer-park-boys-search/static/js/3.a9dcde91.chunk.js",
+    "static/js/3.a9dcde91.chunk.js.map": "/trailer-park-boys-search/static/js/3.a9dcde91.chunk.js.map",
+    "index.html": "/trailer-park-boys-search/index.html",
+    "static/css/main.50ce70e4.chunk.css.map": "/trailer-park-boys-search/static/css/main.50ce70e4.chunk.css.map",
+    "static/js/2.d6f0f4e9.chunk.js.LICENSE.txt": "/trailer-park-boys-search/static/js/2.d6f0f4e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2740b4a.js",
+    "static/js/2.d6f0f4e9.chunk.js",
+    "static/css/main.50ce70e4.chunk.css",
+    "static/js/main.15b20dff.chunk.js"
+  ]
+}
